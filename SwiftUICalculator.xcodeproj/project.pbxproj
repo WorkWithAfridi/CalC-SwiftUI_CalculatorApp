@@ -14,6 +14,9 @@
 		EFA8E2052A1F6AF90038D13A /* SwiftUICalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFA8E2042A1F6AF90038D13A /* SwiftUICalculatorTests.swift */; };
 		EFA8E20F2A1F6AF90038D13A /* SwiftUICalculatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFA8E20E2A1F6AF90038D13A /* SwiftUICalculatorUITests.swift */; };
 		EFA8E2112A1F6AF90038D13A /* SwiftUICalculatorUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFA8E2102A1F6AF90038D13A /* SwiftUICalculatorUITestsLaunchTests.swift */; };
+		EFA8E21E2A1F86D50038D13A /* CalcButtonEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFA8E21D2A1F86D50038D13A /* CalcButtonEnum.swift */; };
+		EFA8E2202A1F872B0038D13A /* CalcOperationEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFA8E21F2A1F872B0038D13A /* CalcOperationEnum.swift */; };
+		EFA8E2222A1F875D0038D13A /* ButtonDimentions.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFA8E2212A1F875D0038D13A /* ButtonDimentions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +47,9 @@
 		EFA8E20A2A1F6AF90038D13A /* SwiftUICalculatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftUICalculatorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EFA8E20E2A1F6AF90038D13A /* SwiftUICalculatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUICalculatorUITests.swift; sourceTree = "<group>"; };
 		EFA8E2102A1F6AF90038D13A /* SwiftUICalculatorUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUICalculatorUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		EFA8E21D2A1F86D50038D13A /* CalcButtonEnum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalcButtonEnum.swift; sourceTree = "<group>"; };
+		EFA8E21F2A1F872B0038D13A /* CalcOperationEnum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalcOperationEnum.swift; sourceTree = "<group>"; };
+		EFA8E2212A1F875D0038D13A /* ButtonDimentions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonDimentions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +104,9 @@
 				EFA8E1F52A1F6AF70038D13A /* ContentView.swift */,
 				EFA8E1F72A1F6AF90038D13A /* Assets.xcassets */,
 				EFA8E1F92A1F6AF90038D13A /* Preview Content */,
+				EFA8E21D2A1F86D50038D13A /* CalcButtonEnum.swift */,
+				EFA8E21F2A1F872B0038D13A /* CalcOperationEnum.swift */,
+				EFA8E2212A1F875D0038D13A /* ButtonDimentions.swift */,
 			);
 			path = SwiftUICalculator;
 			sourceTree = "<group>";
@@ -257,8 +266,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EFA8E2222A1F875D0038D13A /* ButtonDimentions.swift in Sources */,
 				EFA8E1F62A1F6AF70038D13A /* ContentView.swift in Sources */,
 				EFA8E1F42A1F6AF70038D13A /* SwiftUICalculatorApp.swift in Sources */,
+				EFA8E21E2A1F86D50038D13A /* CalcButtonEnum.swift in Sources */,
+				EFA8E2202A1F872B0038D13A /* CalcOperationEnum.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
